@@ -76,7 +76,7 @@ class App extends Component {
     const accounts = await web3.eth.getAccounts()
     //Instantiate the polyToken smart contract
     //***TODO: Grab deployed contract address from commandline */
-    const tutorialInstance = new web3.eth.Contract(TutorialToken.abi,'0xc9bc7bfda71e39807bba554628e4342a23554030')
+    const tutorialInstance = new web3.eth.Contract(TutorialToken.abi,'0xe1764a90bc82dddc5af86d97d8c657af672aac57')
     //Get account's POLY balance
     const ttBalance = await tutorialInstance.methods.balanceOf(accounts[0]).call({ from: accounts[0] })
     // console.log(ttBalance)
