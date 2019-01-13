@@ -42,12 +42,12 @@ class App extends Component {
       setInterval(async()=>{
 
          try{
-
+          //Does the browser provide access to web3? (this is provided via Metamask in my case)
           if(typeof window.web3 !== undefined){
-  
+            //Access Metamask wallet and information
             const web3 = new Web3(Web3.givenProvider)
     
-            const accounts = await web3.eth.getAccounts()
+            const accounts = await web3.eth.getAccounts() //account[0] is default
     
             if(accounts.length < 1){
               // console.log('Could not connect to Metamask. Please unlock your metamask')

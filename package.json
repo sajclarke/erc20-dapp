@@ -4,7 +4,24 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "openzeppelin-solidity": "^2.0.0",
+    "openzeppelin-solidity": "^2.1.1",
     "zeppelin-solidity": "^1.12.0"
-  }
+  },
+  "description": "Simple tutorial for connecting to ERC20 contract",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajclarke/erc20-dapp.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/sajclarke/erc20-dapp/issues"
+  },
+  "homepage": "https://github.com/sajclarke/erc20-dapp#readme"
 }
