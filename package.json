@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "openzeppelin-solidity": "^2.1.1",
-    "zeppelin-solidity": "^1.12.0"
+    "openzeppelin-solidity": "2.1.1"
   },
   "description": "Simple tutorial for connecting to ERC20 contract",
   "directories": {
